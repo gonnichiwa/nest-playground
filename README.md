@@ -71,3 +71,20 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+
+## TEST
+
+```bash
+$ npm run test
+> nest-playground@0.0.1 test
+> jest
+
+ PASS  src/app.controller.spec.ts
+ PASS  src/cat.controller.spec.ts
+
+Test Suites: 2 passed, 2 total
+...
+Ran all test suites.
+```
+
