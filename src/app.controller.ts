@@ -9,4 +9,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get('ab*cd')
+  findAll() {
+    return 'This route uses a wildcard';
+  }
 }
