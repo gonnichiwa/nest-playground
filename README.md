@@ -1,3 +1,32 @@
+
+## TEST
+
+```bash
+$ npm run test
+> nest-playground@0.0.1 test
+> jest
+
+ PASS  src/app.controller.spec.ts
+ PASS  src/cat.controller.spec.ts
+
+Test Suites: 2 passed, 2 total
+...
+Ran all test suites.
+```
+
+## Development (windows)
+
+```cmd
+\> git config --global core.autocrlf false
+```
+
+- prevent from prettier error caused by `crlf`
+
+```cmd
+\> git clone https://github.com/gonnichiwa/nest-playground.git
+```
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
@@ -73,18 +102,4 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 Nest is [MIT licensed](LICENSE).
 
 
-## TEST
-
-```bash
-$ npm run test
-> nest-playground@0.0.1 test
-> jest
-
- PASS  src/app.controller.spec.ts
- PASS  src/cat.controller.spec.ts
-
-Test Suites: 2 passed, 2 total
-...
-Ran all test suites.
-```
 
